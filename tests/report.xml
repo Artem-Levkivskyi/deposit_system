@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="1" failures="0" hostname="artem-ThinkPad-E14" name="pytest" skipped="0" tests="1" time="0.303" timestamp="2021-05-06T12:37:17.792950"><testcase classname="" file="src/blockfarm/tests/test_integration.py" name="src.blockfarm.tests.test_integration" time="0.000"><error message="collection failure">ImportError while importing test module &apos;/home/artem/PycharmProjects/restapi/src/blockfarm/tests/test_integration.py&apos;.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+/home/artem/.virtualenvs/restapi-_vK5jHgm/lib/python3.8/site-packages/_pytest/python.py:511: in _importtestmodule
+    mod = self.fspath.pyimport(ensuresyspath=importmode)
+/home/artem/.virtualenvs/restapi-_vK5jHgm/lib/python3.8/site-packages/py/_path/local.py:704: in pyimport
+    __import__(modname)
+/home/artem/.virtualenvs/restapi-_vK5jHgm/lib/python3.8/site-packages/_pytest/assertion/rewrite.py:152: in exec_module
+    exec(co, module.__dict__)
+test_integration.py:1: in &lt;module&gt;
+    from blockfarm import tasks
+../tasks.py:1: in &lt;module&gt;
+    from models import Program, Transaction, TotalStack, Reward
+E   ModuleNotFoundError: No module named &apos;models&apos;</error></testcase></testsuite></testsuites>
